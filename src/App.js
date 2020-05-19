@@ -1,8 +1,11 @@
 import React from "react";
 import "./App.css";
+import RandomUsers from "./components/RandomUsers";
 
 function App() {
-  return <div>Good luck dear students!</div>;
+  return (
+    <div className='container'><RandomUsers className='container' /></div>
+  )
 }
 
 export default App;
