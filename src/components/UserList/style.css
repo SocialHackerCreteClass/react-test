@@ -4,8 +4,8 @@ li:hover {
 }
 
 li {
+  display: block;
   list-style-type: none;
   width: 100px;
-  height: 40px;
   margin-left: 60px;
 }

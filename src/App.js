@@ -34,6 +34,7 @@ function App() {
             setUsersNames(usersNames => [...usersNames, user])
           }
         })
+        .catch(e => console.error(e))
     setIsLoading(false)
   }
 
