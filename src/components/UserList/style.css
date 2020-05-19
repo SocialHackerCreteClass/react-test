@@ -1,0 +1,11 @@
+li:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+li {
+  list-style-type: none;
+  width: 100px;
+  height: 40px;
+  margin-left: 60px;
+}
