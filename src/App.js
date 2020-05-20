@@ -10,7 +10,6 @@ function App() {
       <div className="App">
         <Switch>
           <Route path='/' exact component={Users} /> 
-          <Route path='*' component={Error}/>
         </Switch>
       </div>
     </Router>
